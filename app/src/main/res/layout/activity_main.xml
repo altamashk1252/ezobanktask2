@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:padding="18dp"
+                android:text="ATM"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#808080"
+
+          />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:text="Denomination"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:text="Available"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Enter notes"
+                               android:textStyle="bold"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#808080"
+
+            />
+        <LinearLayout
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:text="2000"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/avl_2000"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="0"
+                android:background="@drawable/border"
+                android:id="@+id/edt_2000"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#808080"
+
+            />
+        <LinearLayout
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:text="500"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:id="@+id/avl_500"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:hint="0"
+                android:background="@drawable/border"
+                android:id="@+id/edt_500"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#808080"
+
+            />
+        <LinearLayout
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="200"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/avl_200"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="0"
+            android:background="@drawable/border"
+            android:id="@+id/edt_200"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#808080"
+
+            />
+        <LinearLayout
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:text="100"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/avl_100"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="0"
+            android:background="@drawable/border"
+            android:id="@+id/edt_100"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#808080"
+
+            />
+    <LinearLayout
+        android:paddingTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.35"
+            android:layout_height="wrap_content"
+            android:text="Total Amount:"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.35"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/total"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#808080"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deposite"
+            android:layout_margin="16dp"
+            android:id="@+id/btndeposite"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Enter amount for withdrawal"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:id="@+id/withdrawedittext"
+            android:background="@drawable/border"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Withdraw!"
+            android:layout_margin="16dp"
+            android:id="@+id/btnwithdraw"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <!-- UI components for user input -->
+
+</RelativeLayout>
